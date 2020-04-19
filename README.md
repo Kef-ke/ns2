@@ -18,12 +18,15 @@ $ sudo apt install build-essential autoconf automake libxmu-dev
 
 Try
 $] sudo apt install gcc-4.8 g++-4.8 
+
 if display error: "E: Unable to locate package", check: https://itsfoss.com/unable-to-locate-package-error-ubuntu/
 e.g.,
+
 $] sudo add-apt-repository universe
 $] sudo apt update
 
 change CPP to g++-4.8 and C to gcc-4.8 in all relavant files
+
 $ cd ns-allinone-2.35/ns-2.35
 $ gedit Makefile.in 
 $ gedit linkstate/ls.h
