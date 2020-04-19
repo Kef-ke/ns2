@@ -1,12 +1,15 @@
 # ns2 2.35 - Ubuntu 18.04
 
 Download at ns2.35 at https://www.isi.edu/nsnam/ns/ns-build.html
+
 Download Ubuntu - bootable USB stick https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started
 
 Ubuntu Wifi connection error (repeated authetication): https://askubuntu.com/questions/469575/repeated-authentication-required-for-wifi
+
 Solution: Changing the router's configuration: Changed the mode to Wireless-G and security mode to WPA2 Personal. (no 20/40M)
 
 Terminal: (ref: https://www.youtube.com/watch?v=FXm8i1K-6jI&list=LLaC_vBRGddepb0SiPzHSLkQ&index=8&t=0s)
+
 $] tar zxvf ns-allinone-2.35.tar.gz 
 
 if you have installed ubuntu just now, you can try these commands also in the beginning
